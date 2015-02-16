@@ -37,6 +37,16 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
+  
+  <!-- START - GOGH DEVICE, KERNEL, VENDOR -->
+  <project path="device/samsung/goghspr" name="vmobi-gogh/android_device_samsung_goghspr" />
+  <project path="device/samsung/goghvmu" name="vmobi-gogh/android_device_samsung_goghvmu" />
+  <project path="device/samsung/gogh-common" name="Nick73/android_device_samsung_gogh-common" />
+  <project path="kernel/samsung/d2" name="vmobi-gogh/android_kernel_samsung_d2" />
+  <project path="kernel/samsung/gogh" name="vmobi-gogh/android_kernel_samsung_gogh" />
+  <project path="vendor/samsung/goghspr" name="vmobi-gogh/android_vendor_samsung_goghspr" />
+  <!-- END - GOGH DEVICE, KERNEL, VENDOR -->
+  
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo" name="android_device_asus_flo" remote="omnirom" revision="android-4.3" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
